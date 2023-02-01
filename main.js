@@ -34,7 +34,6 @@ class WeatherService {
             const weather = new Weather(data.name, data.main.temp, data.main.feels_like, data.main.temp_min, data.main.temp_max);
             $(".container").addClass("active");
             $(".forecast").css("display", "flex");
-            console.log(data);
             if (data.weather[0].id >= 701 && data.weather[0].id <= 781) {
                 document.querySelector(".weather-img").src = "./assets/weather-icons/Haze.svg";
             } else {
