@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Weather App</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+</head>
+
+<body>
+    <div class="container">
+        <header class="search-container">
+            <input type="text" id="searchInp" class="search-inp" placeholder="Search weather">
+            <button id="searchBtn" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button id="fahrenheitBtn" class="fahrenheit-btn">°F</button>
+        </header>
+        <section class="forecast">
+            <div class="location-info">
+                <h2 class="location-name">Cidade</h2>
+                <h1 class="location-temp">31°</h1>
+            </div>
+            <div class="img-container">
+                <img class="weather-img" src="#" alt="">
+            </div>
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://kit.fontawesome.com/e40051a8be.js" crossorigin="anonymous"></script>
+    <script src='main.js'></script>
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI Bold", sans-serif;
+}
+
+:root {
+    --primary-color: #EAECEF;
+    --secondary-color: #f5f5f5;
+    /* --third-color: #202B3B;
+ */    /* -text-color: #9399A2; */
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: var(--primary-color);
+}
+
+button {
+    cursor: pointer;
+}
+
+.swal2-shown {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 900px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow: hidden;
+}
+
+.container.active {
+    height: 350px;
+    transition: height 1s;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+.search-inp {
+    background-color: var(--primary-color);
+    padding: 13px;
+    border-radius: 10px;
+    width: 75%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.search-btn {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    width: 10%;
+    height: 100%;
+}
+
+.search-btn:hover {
+    background-color: #edeef0e3;
+}
+
+.fahrenheit-btn {
+    background-color: #FFC600;
+    color: #fff;
+    border-radius: 10px;
+    width: 10%;
+    height: 100%;
+}
+
+.fahrenheit-btn:hover {
+    background-color: #ffc800be;
+}
+
+
+.forecast {
+    display: none;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 5.5rem;
+}
+
+.location-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.location-name {
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.location-temp {
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.img-container img {
+    width: 200px;
+    transition: ease-in
+}
+/* ==============================================================*/
+
+/* Media Query - Tablet */
+@media screen and (max-width: 768px) {
+    .search.container {
+        padding: 2rem;
+    }
+
+    .forecast {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+
+/* Media Query - Cellphone */
+@media screen and (max-width: 600px) {
+    .container.active {
+        height: 600px;
+    }
+
+    .search.container {
+        padding: 2rem 1rem;
+    }
+
+    .search-inp {
+        width: 55%;
+    }
+
+    .search-btn {
+        width: 20%;
+    }
+    .fahrenheit-btn {
+        width: 20%;
+    }
+    
+    .forecast {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+}
