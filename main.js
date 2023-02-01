@@ -48,7 +48,3 @@ async function showWeather() {
     document.querySelector(".location-temp").innerHTML = weather.temperature;
 }
 document.querySelector("#searchBtn").addEventListener("click", showWeather);
-
-document.querySelector("#fahrenheitBtn").addEventListener("click", () => {
-    document.querySelector('#fahrenheitBtn').disabled = true;
-});
