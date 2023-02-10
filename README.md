@@ -53,7 +53,7 @@ git clone https://github.com/KauesSilva/weather-app.git
 ### Step 2: Access The Directory
 
 ```bash
-cd aweather-app
+cd weather-app
 ```
 
 ### Step 3: Pushing the changes
