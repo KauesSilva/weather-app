@@ -11,7 +11,7 @@
 
 https://kauessilva.github.io/weather-app/
 
-### Step 2: Make your search
+### Step 2: Search
 
 Type the name of a city, state or country and click on the magnifying glass button*
 
