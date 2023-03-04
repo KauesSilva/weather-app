@@ -3,7 +3,7 @@
     <p>A temperature searcher built with JavaScript for learning purposes.</p>
 </div>
 
-![](https://raw.githubusercontent.com/KauesSilva/weather-app/main/assets/readme/screenshot-3.png)
+![](https://raw.githubusercontent.com/KauesSilva/weather-app/main/assets/readme/ipad-pro-mockup.png)
 
 ## 🚀 How to use it
 
