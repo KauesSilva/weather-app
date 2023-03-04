@@ -1,6 +1,6 @@
 <div align="center">
     <h1>Weather App</h1>
-    <p>A temperature searcher built with JavaScript for learning purposes.</p>
+    <p>A temperature searcher built with vanilla JavaScript for learning purposes.</p>
 </div>
 
 ![](https://raw.githubusercontent.com/KauesSilva/weather-app/main/assets/readme/ipad-pro-mockup.png)
