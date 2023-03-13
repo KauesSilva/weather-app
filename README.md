@@ -32,7 +32,7 @@ Type the name of a city, state or country and click on the magnifying glass butt
     </a>
 </div>
 
-## 📕 Why/How it was built
+## 📕 Why it was built
 
 The idea for this project came from a channel on YouTube called [CodingNepal](https://youtu.be/c1r-NqYkFPc) that built a weather app using HTML, CSS, and JavaScript. In this period, I was stagnant in learning JavaScript frameworks due to my lack of knowledge in Object Oriented Programming and advanced JavaScript. 
 
